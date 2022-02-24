@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(Background.png);
+}
+
+li, a, label {
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0 0 64px;
+
+}
+
+.logo {
+    object-fit: contain;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+
+}
+
+#login {
+    margin: 34.5px 32px 0 0;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#sign-up {
+    margin: 34.5px 80px 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.rectangle {
+    width: 26.7px;
+    height: 5.5px;
+    color: #fff;
+
+}
+
+.login-form {
+    text-align: center;
+    margin-top: 64px;
+    width: 426px;
+    margin: 0 auto;
+
+}
+
+.login-form h1 {
+    font-size: 64px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-align: center;
+    color: #fff;
+    margin-top: 148px;
+
+
+}
+
+.login-form p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 17px;
+
+
+
+}
+
+.rectangle {
+    width: 26.7px;
+    height: 5.5px;
+    flex-grow: 0;
+    margin: 12px 15.1px 0 15.2px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.Sign-right-now {
+    color: #ff9f00;
+}
+
+.final-p {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Email {
+padding-top: 64px;
+    margin-top: 64px;
+    text-align: left;
+
+}
+
+#email-box {
+    width: 426px;
+    height: 60px;
+    flex-grow: 0;
+    margin: 6px 0 0;
+    padding: 20px 279px 20px 16px;
+    opacity: 0.9;
+    border-radius: 12px;
+    background-color: #fff;
+}
+#password-box{
+    width: 426px;
+    height: 60px;
+    flex-grow: 0;
+    margin: 6px 0 0;
+    padding: 20px 175px 20px 16px;
+    opacity: 0.9;
+    border-radius: 12px;
+    background-color: #fff;
+}
+input ::placeholder {
+    font-size: 20px;
+}
+
+#submit {
+    width: 376px;
+    height: 376px;
+    opacity: 0.3;
+    border: solid 2px #ff7748;
+}
+#login-logo {
+    width: 426px;
+    height: 66px;
+    margin: 64px 0 8px 0;
+    object-fit: contain;
+
+
+}
+
+.form-input {
+  margin-top: 10px;
+}
